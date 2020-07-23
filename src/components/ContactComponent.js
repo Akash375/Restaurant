@@ -81,8 +81,8 @@ class  Contact extends Component {
                                          <Errors className="text-danger" model=".firstname" show="touched"
                                          messages={{
                                              required: 'Required',
-                                             minLength: 'Must be greater than 2 characters!',
-                                             maxLength: 'Must be 15 characters or less!'
+                                             minLength: ' Must be greater than 2 characters!',
+                                             maxLength: ' Must be 15 characters or less!'
                                          }}
                                          />
                                 </Col>
@@ -100,8 +100,8 @@ class  Contact extends Component {
                                          <Errors className="text-danger" model=".lastname" show="touched"
                                          messages={{
                                              required: 'Required',
-                                             minLength: 'Must be greater than 2 characters!',
-                                             maxLength: 'Must be 15 characters or less!'
+                                             minLength: ' Must be greater than 2 characters!',
+                                             maxLength: ' Must be 15 characters or less!'
                                          }}
                                          />
                                 </Col>
@@ -119,9 +119,9 @@ class  Contact extends Component {
                                          <Errors className="text-danger" model=".telnum" show="touched"
                                          messages={{
                                              required: 'Required',
-                                             minLength: 'Must be greater than 2 numbers!',
-                                             maxLength: 'Must be 15 numbers or less!',
-                                             isNumber: 'Must be a number!'
+                                             minLength: ' Must be greater than 2 numbers!',
+                                             maxLength: ' Must be 15 numbers or less!',
+                                             isNumber: ' Must be a number!'
                                          }}
                                          />
                                 </Col>
@@ -138,7 +138,7 @@ class  Contact extends Component {
                                         <Errors className="text-danger" model=".email" show="touched"
                                          messages={{
                                              required: 'Required',
-                                             validEmail: 'Invalid Email Address!'
+                                             validEmail: ' Invalid Email Address!'
                                          }}
                                          />
                                 </Col>
